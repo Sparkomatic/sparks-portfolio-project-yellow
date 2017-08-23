@@ -25,6 +25,16 @@ header.masthead {
       margin-bottom: 25px;
       @include heading-font;
     }
+    .intro-additional-text {
+      font-size: 18px;
+      font-weight: 700;
+      padding: 20px 40px;
+      // padding: 20px 0px;
+      border-radius: 3px;
+      @include button-variant(white, $theme-primary, $theme-primary);
+      @include heading-font;
+      // margin-top: -15px;
+    }
   }
 }
 @media(min-width:768px) {

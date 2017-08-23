@@ -144,6 +144,42 @@ header.masthead {
       margin-bottom: 25px;
       font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
       text-transform: uppercase; }
+    header.masthead .intro-text .intro-additional-text {
+      font-size: 18px;
+      font-weight: 700;
+      padding: 20px 40px;
+      border-radius: 3px;
+      color: white;
+      border-color: #8B95C9;
+      background-color: #8B95C9;
+      font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      text-transform: uppercase; }
+      header.masthead .intro-text .intro-additional-text.focus, header.masthead .intro-text .intro-additional-text:focus {
+        color: white;
+        border-color: #445091;
+        background-color: #6875b9; }
+      header.masthead .intro-text .intro-additional-text:hover {
+        color: white; }
+      header.masthead .intro-text .intro-additional-text.active, header.masthead .intro-text .intro-additional-text:active,
+      .open > header.masthead .intro-text .intro-additional-text.dropdown-toggle {
+        color: white; }
+        header.masthead .intro-text .intro-additional-text.active.focus, header.masthead .intro-text .intro-additional-text.active:focus, header.masthead .intro-text .intro-additional-text.active:hover, header.masthead .intro-text .intro-additional-text:active.focus, header.masthead .intro-text .intro-additional-text:active:focus, header.masthead .intro-text .intro-additional-text:active:hover,
+        .open > header.masthead .intro-text .intro-additional-text.dropdown-toggle.focus,
+        .open > header.masthead .intro-text .intro-additional-text.dropdown-toggle:focus,
+        .open > header.masthead .intro-text .intro-additional-text.dropdown-toggle:hover {
+          color: white; }
+      header.masthead .intro-text .intro-additional-text.active, header.masthead .intro-text .intro-additional-text:active,
+      .open > header.masthead .intro-text .intro-additional-text.dropdown-toggle {
+        background-image: none; }
+      header.masthead .intro-text .intro-additional-text.disabled.focus, header.masthead .intro-text .intro-additional-text.disabled:focus, header.masthead .intro-text .intro-additional-text.disabled:hover, header.masthead .intro-text .intro-additional-text[disabled].focus, header.masthead .intro-text .intro-additional-text[disabled]:focus, header.masthead .intro-text .intro-additional-text[disabled]:hover,
+      fieldset[disabled] header.masthead .intro-text .intro-additional-text.focus,
+      fieldset[disabled] header.masthead .intro-text .intro-additional-text:focus,
+      fieldset[disabled] header.masthead .intro-text .intro-additional-text:hover {
+        border-color: #8B95C9;
+        background-color: #8B95C9; }
+      header.masthead .intro-text .intro-additional-text .badge {
+        color: #8B95C9;
+        background-color: white; }
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
@@ -538,21 +574,15 @@ ul.social-buttons {
     border-color: #445091;
     background-color: #6875b9; }
   .btn-primary:hover {
-    color: white;
-    border-color: #616fb6;
-    background-color: #6875b9; }
+    color: white; }
   .btn-primary.active, .btn-primary:active,
   .open > .btn-primary.dropdown-toggle {
-    color: white;
-    border-color: #616fb6;
-    background-color: #6875b9; }
+    color: white; }
     .btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover,
     .open > .btn-primary.dropdown-toggle.focus,
     .open > .btn-primary.dropdown-toggle:focus,
     .open > .btn-primary.dropdown-toggle:hover {
-      color: white;
-      border-color: #445091;
-      background-color: #505fad; }
+      color: white; }
   .btn-primary.active, .btn-primary:active,
   .open > .btn-primary.dropdown-toggle {
     background-image: none; }
@@ -581,21 +611,15 @@ ul.social-buttons {
     border-color: #445091;
     background-color: #6875b9; }
   .btn-xl:hover {
-    color: white;
-    border-color: #616fb6;
-    background-color: #6875b9; }
+    color: white; }
   .btn-xl.active, .btn-xl:active,
   .open > .btn-xl.dropdown-toggle {
-    color: white;
-    border-color: #616fb6;
-    background-color: #6875b9; }
+    color: white; }
     .btn-xl.active.focus, .btn-xl.active:focus, .btn-xl.active:hover, .btn-xl:active.focus, .btn-xl:active:focus, .btn-xl:active:hover,
     .open > .btn-xl.dropdown-toggle.focus,
     .open > .btn-xl.dropdown-toggle:focus,
     .open > .btn-xl.dropdown-toggle:hover {
-      color: white;
-      border-color: #445091;
-      background-color: #505fad; }
+      color: white; }
   .btn-xl.active, .btn-xl:active,
   .open > .btn-xl.dropdown-toggle {
     background-image: none; }
