@@ -260,11 +260,9 @@ header.masthead {
     margin: 0 0 30px; } }
 
 .portfolio-modal .modal-dialog {
-  max-width: 800px;
+  max-width: none;
   height: 100%;
-  width: 70%;
-  min-width: 300px;
-  margin: 0 auto; }
+  margin: 0; }
 
 .portfolio-modal .modal-content {
   min-height: 100%;
@@ -278,9 +276,6 @@ header.masthead {
   .portfolio-modal .modal-content h2 {
     font-size: 3em;
     margin-bottom: 15px; }
-  .portfolio-modal .modal-content h4,
-  .portfolio-modal .modal-content h6 {
-    margin-bottom: 30px; }
   .portfolio-modal .modal-content p {
     margin-bottom: 30px; }
   .portfolio-modal .modal-content p.item-intro {
@@ -295,6 +290,8 @@ header.masthead {
     margin-bottom: 30px; }
   .portfolio-modal .modal-content button {
     cursor: pointer; }
+  .portfolio-modal .modal-content .img-fluid {
+    max-width: 85%; }
 
 .portfolio-modal .close-modal {
   position: absolute;

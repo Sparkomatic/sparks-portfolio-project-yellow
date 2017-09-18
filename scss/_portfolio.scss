@@ -72,18 +72,13 @@
 
 .portfolio-modal {
   .modal-dialog {
-    // max-width: none;
-    max-width: 800px; //added this line
+    max-width: none;
     height: 100%;
-    width: 70%; //and this line -
-    min-width: 300px; // added this line
-    margin: 0 auto;
+    margin: 0;
   }
   .modal-content {
     min-height: 100%;
-    // max-width: 50%;
     padding: 100px 0;
-    // text-align: center;
     text-align: left;
     border: none;
     border-radius: 0;
@@ -93,10 +88,6 @@
     h2 {
       font-size: 3em;
       margin-bottom: 15px;
-    }
-    h4,
-    h6 {
-      margin-bottom: 30px;
     }
     p {
       margin-bottom: 30px;
@@ -116,6 +107,9 @@
     }
     button {
       cursor: pointer;
+    }
+    .img-fluid {
+      max-width: 85%;
     }
   }
   .close-modal {
