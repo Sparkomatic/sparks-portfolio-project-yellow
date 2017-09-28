@@ -1,17 +1,20 @@
 // Mixins
 // Bootstrap Button Variant
 @mixin button-variant($color, $background, $border) {
-  color: $color;
-  border-color: $border;
-  background-color: $background;
+  // color: $color;
+  color: $background;
+  // background-color: $background;
+  background-color: transparent;
   &.focus,
   &:focus {
-    color: $color;
+    // color: $color;
+    color: $background;
     border-color: darken($border, 25%);
     background-color: darken($background, 10%);
   }
   &:hover {
-    color: $color;
+    // color: $color;
+    color: $background;
     // border-color: darken($border, 12%);
     // background-color: darken($background, 10%);
   }
