@@ -3,7 +3,6 @@ header.masthead {
   text-align: center;
   color: white;
   background-image: url('../assets/images/Alma-Jason-Farrah-Lilac-Tint-dark.png');
-  // background-image: url('../assets/images/jason_and_alma_user_interviews-dark-B-and-W.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -28,8 +27,8 @@ header.masthead {
     .intro-additional-text {
       font-size: 18px;
       font-weight: 700;
+      // padding: 10px 40px;
       padding: 20px 40px;
-      // padding: 20px 0px;
       border-radius: 3px;
       @include button-variant(white, $theme-primary, $theme-primary);
       @include heading-font;
@@ -53,7 +52,8 @@ header.masthead {
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
-        margin-bottom: 50px;
+        // margin-bottom: 50px;
+        margin-bottom: 25px;
         @include heading-font;
       }
     }

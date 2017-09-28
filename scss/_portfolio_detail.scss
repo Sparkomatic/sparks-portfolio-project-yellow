@@ -36,6 +36,7 @@
           h3,
           h4 {
             margin: 0;
+            page-break-inside: avoid;
           }
         }
       }
@@ -47,10 +48,12 @@
       text-align: center;
       background-color: white;
       h4 {
+        page-break-inside: avoid;
         margin: 0;
         text-transform: none;
       }
       p {
+        page-break-inside: avoid;
         font-size: 16px;
         font-style: italic;
         margin: 0;
@@ -76,7 +79,7 @@
     height: 100%;
     margin: 0;
   }
-  .modal-content {
+  .portfolio-detail {
     min-height: 100%;
     padding: 100px 0;
     text-align: left;
@@ -86,13 +89,16 @@
     -webkit-box-shadow: none;
     box-shadow: none;
     h2 {
+      page-break-inside: avoid;
       font-size: 3em;
       margin-bottom: 15px;
     }
     p {
+      page-break-inside: avoid;
       margin-bottom: 30px;
     }
     p.item-intro {
+      page-break-inside: avoid;
       font-size: 16px;
       font-style: italic;
       margin: 20px 0 30px;
@@ -109,7 +115,8 @@
       cursor: pointer;
     }
     .img-fluid {
-      max-width: 85%;
+      max-width: 50%;
+      page-break-inside: avoid;
     }
   }
   .close-modal {

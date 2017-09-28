@@ -149,17 +149,16 @@ header.masthead {
       font-weight: 700;
       padding: 20px 40px;
       border-radius: 3px;
-      color: white;
-      border-color: #8B95C9;
-      background-color: #8B95C9;
+      color: #8B95C9;
+      background-color: transparent;
       font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
       text-transform: uppercase; }
       header.masthead .intro-text .intro-additional-text.focus, header.masthead .intro-text .intro-additional-text:focus {
-        color: white;
+        color: #8B95C9;
         border-color: #445091;
         background-color: #6875b9; }
       header.masthead .intro-text .intro-additional-text:hover {
-        color: white; }
+        color: #8B95C9; }
       header.masthead .intro-text .intro-additional-text.active, header.masthead .intro-text .intro-additional-text:active,
       .open > header.masthead .intro-text .intro-additional-text.dropdown-toggle {
         color: white; }
@@ -195,7 +194,7 @@ header.masthead {
       font-size: 75px;
       font-weight: 700;
       line-height: 75px;
-      margin-bottom: 50px;
+      margin-bottom: 25px;
       font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
       text-transform: uppercase; } }
 
@@ -260,11 +259,9 @@ header.masthead {
     margin: 0 0 30px; } }
 
 .portfolio-modal .modal-dialog {
-  max-width: 800px;
+  max-width: none;
   height: 100%;
-  width: 70%;
-  min-width: 300px;
-  margin: 0 auto; }
+  margin: 0; }
 
 .portfolio-modal .modal-content {
   min-height: 100%;
@@ -278,9 +275,6 @@ header.masthead {
   .portfolio-modal .modal-content h2 {
     font-size: 3em;
     margin-bottom: 15px; }
-  .portfolio-modal .modal-content h4,
-  .portfolio-modal .modal-content h6 {
-    margin-bottom: 30px; }
   .portfolio-modal .modal-content p {
     margin-bottom: 30px; }
   .portfolio-modal .modal-content p.item-intro {
@@ -295,6 +289,8 @@ header.masthead {
     margin-bottom: 30px; }
   .portfolio-modal .modal-content button {
     cursor: pointer; }
+  .portfolio-modal .modal-content .img-fluid {
+    max-width: 85%; }
 
 .portfolio-modal .close-modal {
   position: absolute;
@@ -564,17 +560,16 @@ ul.social-buttons {
 
 .btn-primary {
   font-weight: 700;
-  color: white;
-  border-color: #8B95C9;
-  background-color: #8B95C9;
+  color: #8B95C9;
+  background-color: transparent;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-transform: uppercase; }
   .btn-primary.focus, .btn-primary:focus {
-    color: white;
+    color: #8B95C9;
     border-color: #445091;
     background-color: #6875b9; }
   .btn-primary:hover {
-    color: white; }
+    color: #8B95C9; }
   .btn-primary.active, .btn-primary:active,
   .open > .btn-primary.dropdown-toggle {
     color: white; }
@@ -601,17 +596,16 @@ ul.social-buttons {
   font-weight: 700;
   padding: 20px 40px;
   border-radius: 3px;
-  color: white;
-  border-color: #8B95C9;
-  background-color: #8B95C9;
+  color: #8B95C9;
+  background-color: transparent;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-transform: uppercase; }
   .btn-xl.focus, .btn-xl:focus {
-    color: white;
+    color: #8B95C9;
     border-color: #445091;
     background-color: #6875b9; }
   .btn-xl:hover {
-    color: white; }
+    color: #8B95C9; }
   .btn-xl.active, .btn-xl:active,
   .open > .btn-xl.dropdown-toggle {
     color: white; }
