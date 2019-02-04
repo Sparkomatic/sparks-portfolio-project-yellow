@@ -1,5 +1,5 @@
 var gulp = require('gulp');
-var deploy      = require('gulp-gh-pages');
+var deploy = require('gulp-gh-pages');
 var sass = require('gulp-sass');
 var browserSync = require('browser-sync').create();
 var header = require('gulp-header');
@@ -99,7 +99,7 @@ gulp.task('default', ['sass', 'minify-css', 'minify-js', 'copy']);
 gulp.task('browserSync', function() {
   browserSync.init({
     server: {
-      baseDir: ''
+      baseDir: './'
     },
   })
 })
