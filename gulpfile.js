@@ -1,5 +1,5 @@
 var gulp = require('gulp');
-var deploy      = require('gulp-gh-pages');
+var deploy = require('gulp-gh-pages');
 var sass = require('gulp-sass');
 var browserSync = require('browser-sync').create();
 var header = require('gulp-header');
